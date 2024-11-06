@@ -1,0 +1,19 @@
+[02-Nov-2024 18:58:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::bind_param() in /home/oddzqpo7kcd7/public_html/register.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/register.php on line 11
+[02-Nov-2024 19:00:53 UTC] PHP Warning:  require(db.php): Failed to open stream: No such file or directory in /home/oddzqpo7kcd7/public_html/index.php on line 3
+[02-Nov-2024 19:00:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oddzqpo7kcd7/public_html/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/index.php on line 3
+[02-Nov-2024 19:00:55 UTC] PHP Warning:  require(db.php): Failed to open stream: No such file or directory in /home/oddzqpo7kcd7/public_html/index.php on line 3
+[02-Nov-2024 19:00:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oddzqpo7kcd7/public_html/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/index.php on line 3
+[02-Nov-2024 19:00:59 UTC] PHP Warning:  require(db.php): Failed to open stream: No such file or directory in /home/oddzqpo7kcd7/public_html/index.php on line 3
+[02-Nov-2024 19:00:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oddzqpo7kcd7/public_html/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/index.php on line 3

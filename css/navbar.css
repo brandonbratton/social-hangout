@@ -1,0 +1,108 @@
+/* Base styles for the navbar */
+.navbar {
+    width: 250px; /* Width of the navbar */
+    height: 100vh; /* Full height */
+    background-color: #2c3e50; /* Dark background color */
+    color: white; /* Text color */
+    position: fixed; /* Fixed position */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    padding-top: 20px; /* Top padding */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+}
+
+/* Navbar header */
+.navbar-header {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+.navbar-title {
+    font-size: 1.5em; /* Font size of the navbar title */
+}
+
+/* Navbar menu styles */
+.navbar-menu {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.navbar-menu li {
+    margin: 15px 0; /* Space between menu items */
+}
+
+.navbar-menu li a {
+    display: block; /* Make the links fill the li */
+    padding: 15px; /* Padding for clickable area */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+/* Link hover effect */
+.navbar-menu li a:hover {
+    background-color: #34495e; /* Darker background on hover */
+}
+
+/* Dropdown styles */
+.dropdown {
+    position: relative; /* Position for dropdown */
+}
+
+.dropdown .dropbtn {
+    background: none; /* No background */
+    border: none; /* No border */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1em; /* Font size */
+    padding: 15px; /* Padding for dropdown button */
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Full width */
+}
+
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute; /* Position it absolutely */
+    background-color: #2c3e50; /* Match the navbar background */
+    min-width: 250px; /* Set min-width */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow for dropdown */
+    z-index: 1; /* Bring it above other elements */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Show on hover */
+}
+
+.dropdown-content a {
+    padding: 12px 16px; /* Padding for dropdown links */
+    text-decoration: none; /* Remove underline */
+    color: white; /* Text color */
+    display: block; /* Block display */
+}
+
+/* Hover effect for dropdown links */
+.dropdown-content a:hover {
+    background-color: #34495e; /* Darker background on hover */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+    .navbar {
+        width: 100%; /* Full width on small screens */
+        height: auto; /* Auto height */
+    }
+
+    .navbar-menu {
+        display: flex; /* Flex for horizontal layout */
+        flex-direction: row; /* Row direction */
+        overflow-x: auto; /* Allow horizontal scroll */
+    }
+
+    .navbar-menu li {
+        margin: 0 10px; /* Horizontal margin */
+    }
+
+    .navbar-menu li a {
+        padding: 10px; /* Less padding for smaller screens */
+    }
+}

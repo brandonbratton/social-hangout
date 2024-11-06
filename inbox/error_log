@@ -1,0 +1,86 @@
+[02-Nov-2024 19:44:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::FETCH_ASSOC() in /home/oddzqpo7kcd7/public_html/inbox/index.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 30
+[02-Nov-2024 19:44:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::FETCH_ASSOC() in /home/oddzqpo7kcd7/public_html/inbox/index.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 30
+[02-Nov-2024 19:45:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::FETCH_ASSOC() in /home/oddzqpo7kcd7/public_html/inbox/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 32
+[02-Nov-2024 19:45:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::FETCH_ASSOC() in /home/oddzqpo7kcd7/public_html/inbox/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 32
+[02-Nov-2024 19:46:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::FETCH_ASSOC() in /home/oddzqpo7kcd7/public_html/inbox/index.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 35
+[02-Nov-2024 19:47:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.receiver_id' in 'field list' in /home/oddzqpo7kcd7/public_html/inbox/index.php:28
+Stack trace:
+#0 /home/oddzqpo7kcd7/public_html/inbox/index.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 28
+[02-Nov-2024 19:48:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.receiver_id' in 'field list' in /home/oddzqpo7kcd7/public_html/inbox/index.php:28
+Stack trace:
+#0 /home/oddzqpo7kcd7/public_html/inbox/index.php(28): PDO->query()
+#1 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 28
+[02-Nov-2024 19:48:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.receiver_id' in 'field list' in /home/oddzqpo7kcd7/public_html/inbox/index.php:28
+Stack trace:
+#0 /home/oddzqpo7kcd7/public_html/inbox/index.php(28): PDO->query()
+#1 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 28
+[02-Nov-2024 19:48:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.receiver_id' in 'field list' in /home/oddzqpo7kcd7/public_html/inbox/index.php:28
+Stack trace:
+#0 /home/oddzqpo7kcd7/public_html/inbox/index.php(28): PDO->query()
+#1 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 28
+[02-Nov-2024 19:49:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.receiver_id' in 'field list' in /home/oddzqpo7kcd7/public_html/inbox/index.php:28
+Stack trace:
+#0 /home/oddzqpo7kcd7/public_html/inbox/index.php(28): PDO->query()
+#1 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 28
+[02-Nov-2024 19:52:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_all() in /home/oddzqpo7kcd7/public_html/inbox/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 23
+[02-Nov-2024 19:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_all() in /home/oddzqpo7kcd7/public_html/inbox/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 23
+[02-Nov-2024 19:54:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_all() in /home/oddzqpo7kcd7/public_html/inbox/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 23
+[02-Nov-2024 19:55:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_all() in /home/oddzqpo7kcd7/public_html/inbox/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 23
+[02-Nov-2024 19:55:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_all() in /home/oddzqpo7kcd7/public_html/inbox/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 23
+[02-Nov-2024 19:56:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_all() in /home/oddzqpo7kcd7/public_html/inbox/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 23
+[02-Nov-2024 19:57:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_all() in /home/oddzqpo7kcd7/public_html/inbox/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 23
+[02-Nov-2024 19:57:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_all() in /home/oddzqpo7kcd7/public_html/inbox/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 23
+[02-Nov-2024 19:59:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_all() in /home/oddzqpo7kcd7/public_html/inbox/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 23
+[02-Nov-2024 19:59:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.receiver_id' in 'field list' in /home/oddzqpo7kcd7/public_html/inbox/index.php:28
+Stack trace:
+#0 /home/oddzqpo7kcd7/public_html/inbox/index.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/inbox/index.php on line 28

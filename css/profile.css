@@ -1,0 +1,40 @@
+/* styles.css */
+body, html {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: #f4f7fa;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #6f7aff, #8fbcff);
+    color: #fff;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+section {
+    margin: 20px auto;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.avatar-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}

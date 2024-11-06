@@ -1,0 +1,78 @@
+[02-Nov-2024 19:30:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'avataruniverse.user_badges' doesn't exist in /home/oddzqpo7kcd7/public_html/users/profile.php:27
+Stack trace:
+#0 /home/oddzqpo7kcd7/public_html/users/profile.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/users/profile.php on line 27
+[02-Nov-2024 19:32:12 UTC] PHP Warning:  require(./database/info.php): Failed to open stream: No such file or directory in /home/oddzqpo7kcd7/public_html/users/profile.php on line 6
+[02-Nov-2024 19:32:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './database/info.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oddzqpo7kcd7/public_html/users/profile.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/users/profile.php on line 6
+[02-Nov-2024 19:32:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'avataruniverse.user_badges' doesn't exist in /home/oddzqpo7kcd7/public_html/users/profile.php:27
+Stack trace:
+#0 /home/oddzqpo7kcd7/public_html/users/profile.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/users/profile.php on line 27
+[02-Nov-2024 19:34:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'avataruniverse.user_badges' doesn't exist in /home/oddzqpo7kcd7/public_html/users/profile.php:30
+Stack trace:
+#0 /home/oddzqpo7kcd7/public_html/users/profile.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/users/profile.php on line 30
+[02-Nov-2024 19:35:15 UTC] PHP Warning:  Undefined variable $badges in /home/oddzqpo7kcd7/public_html/users/profile.php on line 75
+[02-Nov-2024 19:35:15 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/oddzqpo7kcd7/public_html/users/profile.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/users/profile.php on line 75
+[02-Nov-2024 19:35:53 UTC] PHP Parse error:  syntax error, unexpected token "endforeach", expecting end of file in /home/oddzqpo7kcd7/public_html/users/profile.php on line 76
+[02-Nov-2024 19:35:54 UTC] PHP Parse error:  syntax error, unexpected token "endforeach", expecting end of file in /home/oddzqpo7kcd7/public_html/users/profile.php on line 76
+[02-Nov-2024 20:11:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/oddzqpo7kcd7/public_html/users/profile.php on line 109
+[02-Nov-2024 20:12:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'avataruniverse.friend_requests' doesn't exist in /home/oddzqpo7kcd7/public_html/users/profile.php:62
+Stack trace:
+#0 /home/oddzqpo7kcd7/public_html/users/profile.php(62): PDOStatement->execute()
+#1 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/users/profile.php on line 62
+[02-Nov-2024 20:18:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_activity' in 'field list' in /home/oddzqpo7kcd7/public_html/users/viewusers.php:18
+Stack trace:
+#0 /home/oddzqpo7kcd7/public_html/users/viewusers.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 18
+[02-Nov-2024 20:19:17 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 25
+[02-Nov-2024 20:19:17 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 25
+[02-Nov-2024 20:19:17 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 25
+[02-Nov-2024 20:19:17 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 25
+[03-Nov-2024 14:59:53 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 36
+[03-Nov-2024 14:59:53 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 36
+[03-Nov-2024 15:01:12 UTC] PHP Warning:  include(/dashboard/header.php): Failed to open stream: No such file or directory in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 36
+[03-Nov-2024 15:01:12 UTC] PHP Warning:  include(): Failed opening '/dashboard/header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 36
+[03-Nov-2024 15:01:55 UTC] PHP Warning:  include(/dashboard/header.php): Failed to open stream: No such file or directory in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 36
+[03-Nov-2024 15:01:55 UTC] PHP Warning:  include(): Failed opening '/dashboard/header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 36
+[03-Nov-2024 15:02:13 UTC] PHP Warning:  include(./dashboard/header.php): Failed to open stream: No such file or directory in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 36
+[03-Nov-2024 15:02:13 UTC] PHP Warning:  include(): Failed opening './dashboard/header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 36
+[03-Nov-2024 15:02:43 UTC] PHP Warning:  include(/dashboard/header.php): Failed to open stream: No such file or directory in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 36
+[03-Nov-2024 15:02:43 UTC] PHP Warning:  include(): Failed opening '/dashboard/header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 36
+[03-Nov-2024 15:04:04 UTC] PHP Warning:  include(/dashboard/header.php): Failed to open stream: No such file or directory in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 36
+[03-Nov-2024 15:04:04 UTC] PHP Warning:  include(): Failed opening '/dashboard/header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oddzqpo7kcd7/public_html/users/viewusers.php on line 36
+[03-Nov-2024 22:21:28 UTC] PHP Warning:  Undefined array key "sender_id" in /home/oddzqpo7kcd7/public_html/users/profile.php on line 119
+[03-Nov-2024 22:21:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oddzqpo7kcd7/public_html/users/profile.php on line 119
+[03-Nov-2024 22:21:28 UTC] PHP Warning:  Undefined array key "sender_id" in /home/oddzqpo7kcd7/public_html/users/profile.php on line 123
+[03-Nov-2024 22:21:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oddzqpo7kcd7/public_html/users/profile.php on line 123
+[04-Nov-2024 18:18:06 UTC] PHP Warning:  Undefined array key "sender_id" in /home/oddzqpo7kcd7/public_html/users/profile.php on line 119
+[04-Nov-2024 18:18:06 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oddzqpo7kcd7/public_html/users/profile.php on line 119
+[04-Nov-2024 18:18:06 UTC] PHP Warning:  Undefined array key "sender_id" in /home/oddzqpo7kcd7/public_html/users/profile.php on line 123
+[04-Nov-2024 18:18:06 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oddzqpo7kcd7/public_html/users/profile.php on line 123
+[04-Nov-2024 18:18:15 UTC] PHP Warning:  Undefined array key "sender_id" in /home/oddzqpo7kcd7/public_html/users/profile.php on line 119
+[04-Nov-2024 18:18:15 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oddzqpo7kcd7/public_html/users/profile.php on line 119
+[04-Nov-2024 18:18:15 UTC] PHP Warning:  Undefined array key "sender_id" in /home/oddzqpo7kcd7/public_html/users/profile.php on line 123
+[04-Nov-2024 18:18:15 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oddzqpo7kcd7/public_html/users/profile.php on line 123
+[04-Nov-2024 18:18:17 UTC] PHP Warning:  Undefined array key "sender_id" in /home/oddzqpo7kcd7/public_html/users/profile.php on line 119
+[04-Nov-2024 18:18:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oddzqpo7kcd7/public_html/users/profile.php on line 119
+[04-Nov-2024 18:18:17 UTC] PHP Warning:  Undefined array key "sender_id" in /home/oddzqpo7kcd7/public_html/users/profile.php on line 123
+[04-Nov-2024 18:18:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oddzqpo7kcd7/public_html/users/profile.php on line 123
+[06-Nov-2024 20:03:15 UTC] PHP Warning:  Undefined array key "sender_id" in /home/oddzqpo7kcd7/public_html/users/profile.php on line 119
+[06-Nov-2024 20:03:15 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oddzqpo7kcd7/public_html/users/profile.php on line 119
+[06-Nov-2024 20:03:15 UTC] PHP Warning:  Undefined array key "sender_id" in /home/oddzqpo7kcd7/public_html/users/profile.php on line 123
+[06-Nov-2024 20:03:15 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oddzqpo7kcd7/public_html/users/profile.php on line 123
+[06-Nov-2024 20:03:15 UTC] PHP Warning:  Undefined array key "sender_id" in /home/oddzqpo7kcd7/public_html/users/profile.php on line 119
+[06-Nov-2024 20:03:15 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oddzqpo7kcd7/public_html/users/profile.php on line 119
+[06-Nov-2024 20:03:15 UTC] PHP Warning:  Undefined array key "sender_id" in /home/oddzqpo7kcd7/public_html/users/profile.php on line 123
+[06-Nov-2024 20:03:15 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/oddzqpo7kcd7/public_html/users/profile.php on line 123
